@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-slice-code-points",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Slice a string based on Unicode code points.",
   "license": "Apache-2.0",
   "author": {
