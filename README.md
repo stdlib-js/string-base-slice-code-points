@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sliceCodePoints from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-code-points@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-slice-code-points/tags). For example,
+
+```javascript
 import sliceCodePoints from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-code-points@v0.1.1-deno/mod.js';
 ```
 
@@ -72,7 +77,7 @@ The function accepts the following arguments:
 ## Examples
 
 ```javascript
-import sliceCodePoints from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-code-points@v0.1.1-deno/mod.js';
+import sliceCodePoints from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-code-points@deno/mod.js';
 
 console.log( sliceCodePoints( 'Hello 👋 World', 0, 7 ) );
 // => 'Hello 👋'
