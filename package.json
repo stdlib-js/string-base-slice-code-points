@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-slice-code-points",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Slice a string based on Unicode code points.",
   "license": "Apache-2.0",
   "author": {
@@ -37,11 +37,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-special-fast-max": "^0.3.0",
-    "@stdlib/string-num-code-points": "github:stdlib-js/string-num-code-points#main"
+    "@stdlib/math-base-special-fast-max": "^0.3.1",
+    "@stdlib/string-num-code-points": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/assert-is-string": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
