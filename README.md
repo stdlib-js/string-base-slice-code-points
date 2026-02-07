@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sliceCodePoints from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-code-points@esm/index.mjs';
+import sliceCodePoints from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-code-points@v0.1.1-esm/index.mjs';
 ```
 
 #### sliceCodePoints( str, start, end )
@@ -77,7 +77,7 @@ The function accepts the following arguments:
 <body>
 <script type="module">
 
-import sliceCodePoints from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-code-points@esm/index.mjs';
+import sliceCodePoints from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice-code-points@v0.1.1-esm/index.mjs';
 
 console.log( sliceCodePoints( 'Hello 👋 World', 0, 7 ) );
 // => 'Hello 👋'
